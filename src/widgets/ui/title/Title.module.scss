@@ -1,0 +1,12 @@
+@use "@/shared/sass/variables.scss" as v;
+@use "@/shared/sass/mixins.scss" as m;
+
+.title {
+  &__text {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #177165;
+    text-transform: uppercase;
+  }
+}

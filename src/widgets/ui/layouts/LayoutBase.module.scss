@@ -1,0 +1,7 @@
+@use "@/shared/sass/variables.scss" as v;
+@use "@/shared/sass/mixins.scss" as m;
+
+.main {
+  flex-grow: 1;
+  position: relative;
+}

@@ -1,4 +1,5 @@
 import { dataErr } from "@/shared/const/dataErrors";
+import { setErrorModal } from "@/shared/store/modal/config/modalSlice";
 import {
   Middleware,
   MiddlewareAPI,
@@ -18,7 +19,7 @@ export const rtkQueryErrorLogger: Middleware =
       }
 
       if (Object.keys(dataErr).includes(code.toString())) {
-        // api.dispatch(setErrorModal(dataErr[code as keyof typeof dataErr]));
+        api.dispatch(setErrorModal(dataErr[code as keyof typeof dataErr]));
       }
     }
 

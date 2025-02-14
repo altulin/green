@@ -40,8 +40,8 @@
 // Font mixin
 @mixin font-load($name, $size, $weight, $style) {
   @font-face {
-    src: url("/src/fonts/" + $name + "-" + $size + ".woff2") format("woff2");
-    src: url("/src/fonts/" + $name + "-" + $size + ".woff") format("woff");
+    src: url("../fonts/" + $name + "-" + $size + ".woff2") format("woff2");
+    src: url("../fonts/" + $name + "-" + $size + ".woff") format("woff");
     font-family: $name;
     font-weight: $weight;
     font-style: $style;

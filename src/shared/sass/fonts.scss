@@ -1,0 +1,3 @@
+@use "@/sass/helpers/mixins.scss" as m;
+
+@include m.font-load(SFProText, Regular, 400, normal);

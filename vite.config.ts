@@ -19,9 +19,6 @@ export default defineConfig({
     }),
   ],
 
-  server: {
-    port: 3000,
-  },
   css: {
     postcss: {
       plugins: [
@@ -36,9 +33,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      // "@": "/src",
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // base: "./",
+  base: "./",
 });

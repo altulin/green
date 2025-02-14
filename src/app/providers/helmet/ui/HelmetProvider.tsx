@@ -1,7 +1,7 @@
 import { FC, JSX } from "react";
 import { HelmetProvider } from "react-helmet-async";
 import { Seo } from "./Seo";
-import { TSeo } from "@/shared/types/seo";
+import { TSeo } from "@/shared/types/helmet/seo";
 
 const HelmetProviderFC: FC<{ children: JSX.Element }> = ({ children }) => {
   const seoProps: TSeo = {

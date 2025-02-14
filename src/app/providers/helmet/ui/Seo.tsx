@@ -1,4 +1,4 @@
-import { TSeo } from "@/shared/types/seo";
+import { TSeo } from "@/shared/types/helmet/seo";
 import { FC } from "react";
 import { Helmet } from "react-helmet-async";
 
